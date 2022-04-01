@@ -22,9 +22,11 @@ End the program and close the output image windows.
 ### Developed By:
 ### Register Number: 
 i) #To Read,display the image
-```
-  import cv2
-
+```python
+import cv2
+bike=cv2.imread('f77.jpg',0)
+cv2.imshow('Grayscale',bike)
+cv2.waitKey(0)
 ```
 ii) #To write the image
 ```
@@ -55,6 +57,7 @@ v) #To cut and paste portion of image
 ## Output:
 
 ### i) Read and display the image
+![read and write image processing ](https://user-images.githubusercontent.com/93978702/161278239-425a59f0-eae2-42df-b2c4-682f28a02251.png)
 
 <br>
 <br>
